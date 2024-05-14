@@ -1,0 +1,139 @@
+@import url('reset.css');
+
+body {
+    background-color: black;
+}
+.logo {
+    background-color:rgba(0, 0, 0, .2);
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.logo img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+.banner {
+    background-image: url("banner.png"), linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6));
+    border-image: fill;
+    background-size: cover;
+    border-bottom: 1px solid #33A8DB;
+    padding: 40px;
+}
+h1 {
+    text-transform: uppercase;
+    color: transparent;
+    font-weight: 900;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.banner p {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23.48px;
+    text-shadow: #252525;
+    padding: 16px;
+    width: 530px;
+    margin: auto;
+}
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: .2em;
+    color:#33A8DB;
+    background-color: transparent;
+    border-color: #33A8DB;
+    padding: 19px 91px;
+    margin: 1%;
+}
+#course-content {
+    padding: 40px;
+}
+#course-content h2 {
+    text-transform: uppercase;
+    color:#33A8DB;
+    letter-spacing: .2em;
+    line-height: 37.57px;
+}
+#course-content p {
+    color: #FFFFFF;
+    line-height: 25px;
+    font-size: 16px;
+    width: 792px;
+    margin: auto;
+    padding: 16px;
+}
+.module {
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    color: #FFFFFF;
+    border-radius: 57px;
+    padding: 10px 15px;
+    margin: 1% auto;
+    width: 535px
+}
+.module span{
+    color: #33A8DB;
+}
+#transform-world {
+    background-image: url(woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50px;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+#transform-world p {
+    text-transform: lowercase;
+    text-align: left;
+    max-width: 250px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 2px 2px 0px #33A8DB;
+}
+#professional-challenges{
+    border-bottom: 1px solid #33A8DB;
+}
+#professional-challenges h2{
+    color: #33A8DB;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+#professional-challenges img{
+    padding: 15px;
+}
+#professional-challenges p{
+    text-align: center;
+    width: 792px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+footer {
+    padding-bottom: 40px;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+}
+footer img{
+    padding-top: 40px;
+}
+footer p{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+footer a{
+    text-decoration: none;
+}
